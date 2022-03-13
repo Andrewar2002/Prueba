@@ -1,3 +1,22 @@
+#Procedimiento para comparar ambas opciones
+def comparacion_resultados(accion_usuario,accion_computadora):
+  print("")
+  print("Resultados")
+  print("")
+  print(f"Tu escogiste {accion_usuario}, la computadora eligio {accion_computadora}.\n")
+  ganador(accion_usuario,accion_computadora)
+
+
+
+#Procedimiento para preguntarle el nombre al usuario
+def preguntar_nombre():
+  print("")
+  nombre = input("Primero ingresa tu nombre: ")
+  cleaning()
+  print("")
+  print(f"Hola {nombre}!, bienvenido al juego de piedra, papel o tijera \n")
+
+
 #Procedimiento para saber el ganador
 def ganador(accion_usuario,accion_computadora):
   
